@@ -1,0 +1,70 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.DotSettings
+# Firebase
+firebase-service-account.json
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+
+# Local development settings
+appsettings.Development.json
+appsettings.Local.json
+*.Development.json
+*.Local.json
+
+# Dependencies
+node_modules/
+wwwroot/lib/
+packages/
+
+# Test Results
+TestResults/
+[Cc]overage/
+*.coverage
+*.coveragexml
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+*.db
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp 

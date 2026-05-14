@@ -1,0 +1,76 @@
+.moderator-wrapper {
+  max-width: 760px;
+  margin: 30px auto;
+  padding: 0 20px 40px;
+}
+
+.moderator-header {
+  background: #dbe8fb;
+  padding: 26px;
+  border-radius: 22px;
+  margin-bottom: 22px;
+}
+
+.moderator-header h1 {
+  margin: 0 0 8px;
+  color: #0f172a;
+}
+
+.moderator-header p {
+  margin: 0;
+  color: #475569;
+}
+
+.moderator-card {
+  background: white;
+  padding: 26px;
+  border-radius: 22px;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.06);
+}
+
+.moderator-card h2 {
+  margin: 0 0 20px;
+  color: #0f172a;
+}
+
+.moderator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  color: #334155;
+  font-weight: 700;
+}
+
+.form-group input {
+  border: 1px solid #dbe3f0;
+  border-radius: 14px;
+  padding: 14px 16px;
+  font-size: 15px;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
+}
+
+.moderator-form button {
+  margin-top: 8px;
+  width: fit-content;
+  border: none;
+  border-radius: 14px;
+  padding: 13px 20px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
